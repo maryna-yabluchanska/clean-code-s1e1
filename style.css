@@ -76,7 +76,7 @@ button {
 
 /* Heading */
 .tasks__heading,
-.tasks__adding-label {
+.tasks__adding__heading  {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +104,7 @@ button {
 }
 
 /* New Task */
-.tasks__adding-label {
+.tasks__adding__heading  {
   margin: 0 0 20px;
 }
 
