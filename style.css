@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header {text-align: center;
+
+  .header {
+    text-align: center;
   }
+
 }
+
 .tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .tasks__adding-wrapper {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .tasks__adding-button,
 .tasks_btn {
   background: none;
@@ -54,10 +67,12 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .tasks__adding-button:hover,
 .tasks_btn:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 .tasks__heading,
 .tasks__adding-label{
@@ -69,6 +84,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .tasks__input{
   margin: 0;
   font-size: 18px;
@@ -81,6 +97,7 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .tasks__input:focus {
   color: #333;
 }
@@ -89,6 +106,7 @@ input,button{
 .tasks__adding-label {
   margin: 0 0 20px;
 }
+
 .tasks__adding-input {
   width: 318px;
 }
@@ -98,11 +116,11 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .tasks__item  > * {
   vertical-align: middle;
 }
@@ -110,20 +128,24 @@ input,button{
 .tasks__item > .tasks__item-checkbox {
   margin: 0 10px;
 }
+
 .tasks__item  > .tasks__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.tasks__item  > tasks__input {
+
+.tasks__item  > .tasks__input {
   width: 226px
 }
+
 .tasks_btn-delete .tasks_btn-delete__ico {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .tasks_btn-delete .tasks_btn-delete__ico:hover {
   transform: rotateZ(0);
 }
