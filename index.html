@@ -11,15 +11,15 @@
   <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </header>
 <main class="tasks">
-  <section id="tasks__adding">
-    <h3 class="tasks__heading tasks__adding__heading ">Add Item</h3>
-    <div class="tasks__adding-wrapper">
-      <input id="new-task" class="task tasks__input tasks__adding-input" type="text">
-      <button class="tasks__adding-button">Add</button>
+  <section class="tasks-section tasks-section__add">
+    <h3 class="tasks-section__header tasks-section__header-add ">Add Item</h3>
+    <div class="tasks-section__body task-add">
+      <input id="new-task" class="task tasks__input tasks-add__input" type="text">
+      <button class="tasks-add__button">Add</button>
     </div>
   </section>
-  <section>
-    <h3 class="tasks__heading">Todo</h3>
+  <section class="tasks-section tasks-section__incompleted">
+    <h3 class="tasks-section__header">Todo</h3>
     <ul id="tasks__incompleted">
       <li class="tasks__item">
         <input type="checkbox" class="tasks__item-checkbox">
@@ -30,7 +30,7 @@
           <img class="tasks_btn-delete__ico" src="./remove.svg" alt="ico delete">
         </button>
       </li>
-      <li class="tasks__item tasks__incompleted-editing">
+      <li class="tasks__item tasks__incompleted-edit">
         <input type="checkbox" class="tasks__item-checkbox">
         <label class="task tasks__label">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task tasks__input">
@@ -41,8 +41,8 @@
       </li>
     </ul>
   </section>
-  <section>
-    <h3 class="tasks__heading">Completed</h3>
+  <section class="tasks-section tasks-section__completed">
+    <h3 class="tasks-section__header">Completed</h3>
     <ul id="tasks__completed">
       <li class="tasks__item">
         <input type="checkbox" checked class="tasks__item-checkbox">
